@@ -1,7 +1,7 @@
 import sys
 import pygame
 import random
-#try
+#try on
 
 def main():
     try:
