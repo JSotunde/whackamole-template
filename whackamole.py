@@ -15,7 +15,7 @@ def main():
         for i in range(16):
             pygame.draw.line(screen, (0, 0, 0), (0, i * 32), (640, i * 32))
         clock = pygame.time.Clock()
-        mole_pos = (1,1)
+        mole_pos = (0,0)
         running = True
         while running:
             for event in pygame.event.get():
