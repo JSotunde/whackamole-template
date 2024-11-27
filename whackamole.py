@@ -5,6 +5,7 @@ import random
 def main():
     try:
         pygame.init()
+        print(pygame.font.get_fonts())
         # You can draw the mole with this snippet:
         mole_image = pygame.image.load("mole.png")
         screen = pygame.display.set_mode((640, 512))
